@@ -1,50 +1,29 @@
-//Variables
+// Variables Practice
 
-let a=66;
-console.log(a);
+let firstName = "Jahanzaib";
+let age = 20;
+let city = "Lahore";
+let isStudent = true;
+let cgpa = 3.25;
 
-let age=29;
-console.log("Age is " + age);  //String+number
+console.log("Name:", firstName);
+console.log("Age:", age);
+console.log("City:", city);
+console.log("Student:", isStudent);
+console.log("CGPA:", cgpa);
 
+console.log(typeof firstName);
+console.log(typeof age);
+console.log(typeof city);
+console.log(typeof isStudent);
+console.log(typeof cgpa);
 
-let b=30;
-a=90;
-console.log(a + b);
+// Reassigning a variable
+age = 21;
 
-//MATH OBJECTS
+console.log("Updated Age:", age);
 
-Math.random();
-console.log(Math.round(7.5));
-console.log(Math.ceil(2.02));
-console.log(Math.floor(2.9));
-console.log(Math.random());
-console.log(Math.max(20,30,40));
-console.log(Math.min(22,33,44))
-console.log(Math.pow(2,4))
-console.log(Math.sqrt(25))
+// Constant variable
+const country = "Pakistan";
 
-let dice = Math.floor(Math.random() * 6) + 1;
-
-console.log(dice);
-
-
-//functions
-
-function greet() {
-    console.log("Good Morning");
-}
-
-greet();
-greet();
-greet();
-
-//return Function
-
-function add(a,b){
-    return a+b;
-};
-    let result= add(2,8);
-    console.log(result);
-
-
-
+console.log("Country:", country);
